@@ -1,7 +1,7 @@
-# samba-dockerinstall
+# samba-Dockerfile
 
 ---
-# Dockerinstall
+# Dockerfile
 FROM ubuntu
 RUN apt-get update -y
 RUN apt-get install -y samba
@@ -19,3 +19,6 @@ ENTRYPOINT ping 127.0.0.1
 
 ---
 ===
+
+
+docker build -t samba:latest .
