@@ -18,7 +18,5 @@ ENTRYPOINT ping 127.0.0.1
 # eof
 
 ---
-===
-
 
 docker build -t samba:latest .
